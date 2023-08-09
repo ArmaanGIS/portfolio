@@ -1,0 +1,471 @@
+<!DOCTYPE HTML>
+<!--
+	Paradigm Shift by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head><title>Armaan Ranjani Mustafa</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+<style>
+    .image.main img {
+        max-width: 100%;
+        height: auto;
+    }
+	ul.skills-list {
+        text-align: left;
+        list-style-position: outside; 
+        padding-left: 1em;
+    }
+    
+    ul.skills-list li {
+        margin-bottom: 0.5em;
+    }
+
+    ul.skills-list strong {
+        font-weight: bold;
+    }
+	section#first .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section#first .content > * {
+        flex: 1 1 50%;
+        padding: 0 1em;
+        box-sizing: border-box;
+    }
+
+	.right-image {
+				float: right;
+				max-width: 125%;
+				margin: 0 0 1em 1em;
+			}
+			#map {
+            height: 1300px;	
+			width: 860px;
+			border: 2px transparent;
+  border-radius: 5px;
+  padding: 10px; /* Optional: Add padding inside the border */
+  margin-left: 40px; /* Add your desired left margin value here */
+  margin-right: 40px; /* Add your desired left margin value here */
+			
+
+
+        }
+
+        /* Add the CSS styles here */
+        .legend {
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+        }
+
+        .legend p {
+            margin: 5px 0;
+        }
+
+        .education-marker {
+            background-image: url('https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png');
+            background-size: contain;
+            width: 25px;
+            height: 41px;
+            display: inline-block;
+        }
+
+        .work-marker {
+            background-image: url('https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png');
+            background-size: contain;
+            width: 25px;
+            height: 41px;
+            display: inline-block;
+        }
+
+        .marker-popup {
+    max-width: 400px; /* Adjust the desired maximum width */
+    width: auto !important;
+}
+.gallery a img {
+    width: 100%;
+    height: auto;
+  }
+  .image.fill {
+  text-align: bottom; /* Center-align the image */
+}
+
+.image.fill img {
+  max-width: 90%;
+  height: 100%;
+  margin-left: 40px; /* Add your desired left margin value here */
+}
+/* Hide the extra CAG links by default */
+#cagList li:nth-child(n+4) {
+  display: none;
+}
+.image-container {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: flex-start; /* Align items to the top */
+  }
+
+  .image-container img {
+    width: 400px; /* Set the width to create a square */
+    height: 250px; /* Set the height to match the width */
+    object-fit: cover; /* Maintain the aspect ratio and cover the space */
+    margin-left: -300px;
+	margin-right: 150px;
+
+  }
+  
+</style>
+
+		
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section class="intro">
+						<header>
+							
+							<div class="left-align">
+								<div class="image-container">
+
+									<img src="images/pic01.jpg" alt="Image description" />
+									<h2>Armaan RM  <br> <br> <br> 
+									GIS RESEARCHER & DATA SCIENTIST</h2>
+									</div>
+
+								<ul class="skills-list">
+									<strong>Core Skills:</strong>
+									<li><strong>Desktop GIS</strong> - ArcGIS, QGIS</li>
+									<li><strong>Programming</strong>: Python, R, Html, JavaScript & SQL</li>
+									<li><strong>Tools</strong>: Google Earth Engine, Sentinel Application Platform (SNAP), Flood Modeller, Kobotoolbox & Leaflet</li>
+									<li><strong>Data Visualisation</strong>: Matplotlib, Seaborn, Streamlit, Google Sheets and Excel</li>
+									<li><strong>On Ground Data Collection</strong>: PPGIS (Participatory GIS) and VGI (Volunteered Geographic Information)</li>
+
+									<li><strong>Machine Learning and AI</strong> OpenAI, Scikitlearn </li>
+									<li><strong>Design</strong>: Photoshop, Illustrator & Canva</li>
+									<li><strong>Office & Google Suite</strong></li>
+								</ul>								
+ 
+							<ul class="actions">, 
+								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+<div class="content">
+
+  <div>
+    <span class="image fill" data-position="center"><img src="images/india1.gif" alt="" /></span>
+
+  </div>
+</div>
+ 
+					</section>
+
+				<!-- Section -->
+			<!-- First Section -->
+			<section id="first">
+				<header>
+						<h2>About Me</h2>
+						<p>With 5 years of study and over 2 years of work in Geographical Information Science, I specialize in spatial mapping and analysis using ArcGIS, QGIS, and Python. My expertise lies in collecting GIS data through participatory and volunteered geographic information methods, leveraging the power of individuals as sensors for high-quality and real-time data.</p>
+				</header>
+			
+				<div class="content">
+					<div class="column">
+						<span class="image right-image">
+							<img src="images/Untitled.png" alt="" style="max-width: 100%; height: auto; display: block;" />
+						</span>
+						<p><strong><br> During my MSc dissertation, I showcased my ability to develop algorithms and web applications by creating a real-time pluvial flooding monitoring system in Chennai, India using Volunteered Geographic Information. Additionally, I have led and trained teams for primary GIS data collection in India.</strong></p>
+					</div>
+				</div>
+			</section>
+ 
+				<!-- Section -->
+				<section>
+					<header>
+						<div class="content">
+							<h2>Education</h2>
+							<ul>
+								<li>
+								  <strong> MSc Geographical Information Science, <br> University of Manchester (2021 - 2022)</strong>
+								</li>
+									<li><strong>Distinction achieved</strong></li>
+									<li>Key modules:
+									  	<li>GIS &amp; Environmental Applications</li>
+										<li>Understanding GIS</li>
+										<li>Environmental Modelling and Monitoring in Practice</li>
+										<li>Fundamentals of Synthetic Aperture Radar</li>
+										<br>
+									<li> <strong> BA in Environmental Studies, <br> FLAME University <br> (2015 - 2018)</strong></li>
+									<br>
+									<li> <strong> Diploma in Liberal Education, <br> FLAME University <br> (2014 - 2015)</strong></li>
+
+								</ul>
+							  </ul>
+								</div>
+						<div class="content">
+							<h2 class="major">My Work</h2>
+							<Strong>2022 - present </Strong><br>  
+
+									<li>Contributed to academic research projects related to the Gautreaux Housing Program in California</li>
+									<li>Contributed to comprehensive research projects related to the use of social media-based location services to model and analyze potential warehouse locations</li>
+									<li>Developed multiple Streamlit and Leaflet web-apps for various clients</li>
+									<br>
+									<li> <strong>Chief Operations Officer for Metal Chennai </strong>
+										<li>Manage social media and marketing efforts</li>
+										<li>Liason with International and National artists and promoters to organise music events and tours</li>
+									</li>
+
+							</div>
+
+					</header>
+					<div id="map"></div> 	
+
+					
+					</section>
+					<section>
+						<header>
+							<div class = "Content"><Strong>Urban Researcher at Citizen Consumer and Civic Action Group<br>(2018 - 2020) </Strong> <br>
+								<ul>
+									<li>
+									  <Strong>Transparent Cities Network: </Strong>
+									    <br>
+										<li>Mapped and enumerated public facilities of slums in Ranchi and Ahmedabad using PPGIS</li>
+										<li>Spatially analyzed inequalities in access to public utilities and infrastructure within and across slums</li>
+										<li>Created training material to enable engagement between Slum Mahila and local government representatives through participatory governance</li>
+									  <br>
+									<li>
+										<Strong>Zero Waste Chennai Corroborative: </Strong>
+										<br>
+									  	<li>In collaboration with the Greater Chennai Corporation to help Chennai move from a centralized to a decentralized waste management system</li>
+										<li>Lead teams in mapping waste generators in Chennai and evaluating waste management facilities</li>
+										<li>Trained staff to collect and enumerate household waste data</li>
+										<li>Provided recommendations after spatially analyzing waste management facilities and routes used by the local government</li>
+									  </ul>
+									</li>
+								  </ul>
+							</div>
+							<div class="content">
+								<h2 class="major">Writing</h2>
+								<Strong> The Bastion</Strong>
+								<ul>
+									<li><a href="https://thebastion.co.in/politics-and/environment/forest-development-but-at-whose-cost-2/">Forest Development, but at Whose Cost?</a></li>
+									<li><a href="https://thebastion.co.in/covid-19/disease-surveillance-in-india-from-sars-cov-to-covid-19/">Disease Surveillance in India: From SARS-CoV to COVID-19</a></li>
+									<li><a href="https://thebastion.co.in/politics-and/environment/whos-the-smelliest-of-them-all/">Who's the Smelliest of Them All?</a></li>
+									<li><a href="https://thebastion.co.in/politics-and/sports/esports-is-here-to-stay-where-do-indias-pro-gamers-go-from-here/">Esports is Here to Stay: Where Do India's Pro Gamers Go From Here?</a></li>
+								  </ul>
+
+								<Strong> Citizen Consumer Civic Action Group</Strong>
+								<ul id="cagList">
+									<li><a href="https://www.cag.org.in/newsletters/public-newsense/mapping-slums-ranchi-hand-drawn-maps-digitisation">Mapping Slums in Ranchi: Hand-drawn Maps to Digitisation</a></li>
+									<li><a href="https://www.cag.org.in/newsletters/public-newsense/overcoming-challenges-faced-whilst-mapping-zone-8-chennai">Overcoming Challenges Faced Whilst Mapping Zone 8 Chennai</a></li>
+									<li><a href="https://www.cag.org.in/database/kuppai-thiruvizha-manual">Kuppai Thiruvizha Manual</a></li>
+									<li><a href="https://www.cag.org.in/newsletters/public-newsense/where-are-bulk-waste-generators">Where Are Bulk Waste Generators?</a></li>
+									<li><a href="https://www.cag.org.in/blogs/slum-policy-housing-policy">On Slum Policy & Housing Policy</a></li>
+									<li><a href="https://www.cag.org.in/blogs/mapping-chennais-urban-resilience-using-landscape-ecology">Mapping Chennai's Urban Resilience Using Landscape Ecology</a></li>
+									<li><a href="https://www.cag.org.in/blogs/how-do-you-stop-wetland-abuse">How Do You Stop Wetland Abuse?</a></li>
+									<li><a href="https://www.cag.org.in/blogs/understanding-chennais-second-master-plan-through-eyes-urban-poor">Understanding Chennai's Second Master Plan Through the Eyes of the Urban Poor</a></li>
+									<li><a href="https://www.cag.org.in/newsletters/public-newsense/rethinking-urbanisation-and-right-city-conference-proceedings">Rethinking Urbanisation and Right to the City: Conference Proceedings</a></li>
+								  </ul>
+								  <button id="viewMoreBtn">View More</button><br> <br> 
+																  
+						</header>
+
+
+
+						<div class="content">
+							<h2 style="text-align: center;" >Portfolio</h2>
+							<div class="gallery">
+							  <a href="https://cagfloodmonitoringwebapp.pythonanywhere.com/" class="landscape">
+								<img src="images/Untitled.png" alt="">
+								<span class="caption"><strong><h3 style="text-align: center;">Flood Monitoring Web Application</h3></strong></span>
+							  </a>
+							  <br> <!-- Add a line break here for spacing -->
+							  <a href="https://armaangis-wals-interactive-webapp-app-1ho3xh.streamlit.app/" class="landscape">
+								<img src="images/gallery/thumbs/02.jpg" alt="">
+								<span class="caption"><strong><h3 style="text-align: center;">World Atlas of Language Structures Interactive Dashboard</h3></strong></span>
+							  </a>
+							  <br> <!-- Add a line break here for spacing -->
+							  <a href="https://github.com/ArmaanGIS/Streamlit_Bing_Sitemap_Searcher" class="landscape">
+								<img src="images/gallery/thumbs/03.jpg" alt="">
+								<span class="caption"><strong><h3 style="text-align: center;">Bing Sitemap Generator</h3></strong></span>
+							  </a>
+							</div>
+						  </div>
+					</section>
+					
+
+
+					<section>
+						<footer>
+							<h2>Contact Me</h2>
+							<ul class="items">
+								<li>
+									<h3>Email</h3>
+									<a href="#">armaanrm1@gmail.com</a>
+								</li>
+								<li>
+									<h3>Phone</h3>
+									<a href="#">+91-98404-55734</a>
+								</li>
+								<li>
+									<h3>Social Media</h3>
+										<a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a>  <a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a>
+									</ul>
+								</li>
+							</ul>
+						</footer>
+					</section>
+					<script>
+						document.getElementById("viewMoreBtn").addEventListener("click", function() {
+						  var cagListItems = document.querySelectorAll("#cagList li:nth-child(n+4)");
+						  for (var i = 0; i < cagListItems.length; i++) {
+							cagListItems[i].style.display = "list-item";
+						  }
+						  this.style.display = "none"; // Hide the "View More" button after showing all items
+						});
+					  </script>
+					<script>
+						const map = L.map('map').setView([18.5074, 16.4278], 3);
+				
+						L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',{
+  attribution: '© OpenStreetMap contributors, © CartoDB'
+}).addTo(map);
+				
+						var greenIcon = new L.Icon({
+							iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+							shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+							iconSize: [25, 41],
+							iconAnchor: [12, 41],
+							popupAnchor: [1, -34],
+							shadowSize: [41, 41]
+						});
+				
+						// Add markers for work and education
+						const workMarker = L.marker([13.0389628, 80.2487262], { icon: greenIcon }).addTo(map)
+							.bindPopup(`<strong>Researcher at Citizen Consumer Civic Action Group</strong><br/> 2018 - 2020<br>
+							<Strong>Transparent Cities Network</Strong>
+
+							<ul>
+							  <li>Mapped and enumerated public facilities of slums in Ranchi and Ahmedabad using PPGIS and paper mapping</li>
+							  <li>Spatially analyzed inequalities in access to public utilities and infrastructure within and across slums</li>
+							  <li>Created material for engagement between Slum Mahila and local government representatives through PPGIS</li>
+							</ul>
+							<strong>Zero Waste Chennai Corroborative</strong><br/>
+							<ul>
+								<li>Georeferenced and mapped commercial Waste Generators of Zone 8, Chennai.</li>
+								<li>Georeferenced and corrected government waste infrastructure data</li>
+								<li>Led teams in mapping waste generators in Chennai and evaluating waste management facilities</li>
+							    <li>Trained government staff to collect and enumerate household waste data</li>
+							    <li>Handled operations for a month-long climate action drive</li>
+							</ul>.`)
+							.on('click');
+
+							workMarker.getPopup().on('open', function () {
+  map.setView(marker.getLatLng(), 15);
+});
+
+				
+						const educationMarkers = [
+							// B.A marker
+							{
+								position: [18.5233128, 73.7268729],
+								alt: 'B.A with a Major in Environmental Science and minor in International Relations',
+								content: `
+									<strong>B.A with a Major in Environmental Science and minor in International Relations</strong><br/>
+									FLAME University<br/>
+									2015 - 2018<br/>
+									<strong>Diploma in Liberal Education</strong><br/>
+									FLAME University<br/>
+									2014 - 2015<br/>
+									<ul>
+									<li>Interdisciplinary understanding of Environmental Sciences, Social Sciences, and rudimentary biology and ecology</li>
+				  <li>Analytical skills in conservation, climate change and development, Indian Governance</li>
+				  <li>Proficiency in GIS systems for spatial analysis</li>
+				  <li>Conducted research on historical land use change in Hyderabad using GIS</li>
+				</ul>
+				
+				
+				
+				
+				
+				
+				
+									`
+							},
+							// Diploma marker
+				
+							// MSc marker (unchanged)
+							{
+								position: [53.46675924346132, -2.2357882449613853],
+								alt: 'MSc in Geographical Information Science',
+								content: `
+									<strong>MSc in Geographical Information Science</strong><br/>
+									University of Manchester<br/>
+									2021 - 2022<br/>
+									<ul>
+					<li>Completed key modules including:
+						<ul>
+							<li>GIS & Environmental Applications</li>
+							<li>Understanding GIS</li>
+							<li>Environmental Modelling and Monitoring in Practice</li>
+							<li>Fundamentals of Synthetic Aperture Radar</li>
+						</ul>
+					</li>
+					<li>Developed a web application to monitor real-time pluvial flooding in Chennai, India using Volunteered Geographic Information.</li>
+					<li>Developed an algorithm to calculate the shortest international border in the world as quickly as possible.</li>
+					<li>Examined forest disturbances in Bandipur National Park between 2005 and 2020 using LandTrendr.</li>
+					<li>Conducted flood inundation mapping of the 2021 Chennai floods using Sentinel-1.</li>
+				</ul>
+					 `
+							}
+						];
+				
+						const educationMarkerGroup = L.layerGroup().addTo(map);
+				
+						educationMarkers.forEach(marker => {
+							const { position, alt, content } = marker;
+							const educationMarker = L.marker(position).addTo(educationMarkerGroup);
+							educationMarker.bindPopup(content, {
+								autoClose: false,
+								className: 'marker-popup'
+							});
+						});
+				
+						var legend = L.control({ position: 'bottomleft' });
+						legend.onAdd = function (map) {
+							var div = L.DomUtil.create('div', 'legend');
+							div.innerHTML += '<h4>Legend</h4>';
+							div.innerHTML += '<p><span class="education-marker"></span>Education</p>';
+							div.innerHTML += '<p><span class="work-marker"></span>Work</p>';
+							return div;
+						};
+						legend.addTo(map);
+					</script>
+				<!-- Copyright -->
+					<div class="copyright">&copy; Untitled. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			 
+ 
+	</body>
+</html>
